@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mac.inclassassignment07_yup.SecondActivity">
+
+    <EditText
+        android:id="@+id/animal_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Animal"
+        android:padding="16dp"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/legs_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number of legs"
+        android:inputType="number"
+        android:paddingLeft="16dp"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/has_fur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Has fur/feather?"
+        android:textSize="20sp" />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/m_radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="16dp"
+        >
+    <RadioButton android:id="@+id/mammal_radio_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mammal"
+        android:textSize="20sp"
+        />
+    <RadioButton android:id="@+id/nonmammal_radio_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Non-mammal"
+        android:textSize="20sp"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp"
+        android:layout_margin="30dp"
+        android:text="Submit"
+        android:textSize="23sp"/>
+
+
+
+</LinearLayout>
+
